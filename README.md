@@ -2,10 +2,24 @@
 
 ## Setup & Installation
 
-Make sure you have the latest version of Python installed.
+### Virtual environments
+First be sure to create and activate a virtual environment.
 
 ```bash
-git clone <repo-url>
+python -m venv .venv
+```
+
+Linux/Mac
+````
+    source .venv/bin/activate
+````
+Windows
+````
+    source .\.venv\Scripts\activate
+````
+
+```bash
+git clone https://github.com/python-elective-kea/Flask-Web-App-Tutorial.git
 ```
 
 ```bash
